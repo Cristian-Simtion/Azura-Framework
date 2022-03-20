@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://framework.simtion.eu/</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/grid.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/index.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/flex.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/icons.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/images.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/buttons.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/cards.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/round.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/typography.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/colors.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/elevation.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/dialogs.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/checkboxes.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/lists.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/textfields.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/textareas.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/forms.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/fileinputs.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/ajax.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/noajax.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/viewport.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/select.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://framework.simtion.eu/scrollbar.php</loc>
+	<lastmod>2022-02-19T02:24:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>

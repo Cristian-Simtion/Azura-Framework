@@ -7,12 +7,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?= get_title(); ?></title>
 	<meta name="description" content="CSS Framework">
-	<link rel="icon" href="./favicon.ico">
+	<link rel="icon" href="favicon.ico">
+	<link rel="manifest" href="manifest.json">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" >
-	<link rel="stylesheet" href="cs-framework.css">
-	<link rel="stylesheet" href="app.css">
+	<link rel="stylesheet" href="app/css/cs-framework.css">
+	<link rel="stylesheet" href="app/css/app.css">
+	<script>navigator.serviceWorker.register('app/js/service-worker.js').then().catch(err => console.log('Boo!', err));</script>
 </head>
-<body class="background">
+<body class="bg-background">
 	<script>
 		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 			document.body.classList.add("dark");
@@ -26,19 +28,9 @@
 		});
 	</script>
 
-	<div class="test-float">
-		<a href="grid.php" class="button button-s ripple">
-			<span>Grid</span>
-		</a>
-
-		<button class="button button-s ripple" data-drawer="toggle">
-			<span>Toggle Drawer</span>
-		</button>
-	</div>
-
-	<div id="app" class="nav-drawer-standard">
+	<div id="app" class="nav-drawer-standard sidebar-280">
 		<div class="topbar">
-			<div class="card surface elevation-3  r-0">
+			<div class="card bg-surface elevation-3 r-0">
 				<div class="d-flex ml-24 align-center height-64">
 					<button class="button button-square ripple mb-0 d-md-none" data-drawer="open">
 						<span class="icon-menu"></span>
@@ -66,13 +58,22 @@
 					</a>
 
 					<div class="white-space-nowrap d-none d-md-flex align-center">
-						<a href="<?php the_template_path(); ?>index.php">
+						<a href="index.php">
 							<p class="ml-8 mr-8 mb-0"><span class="text-title-l bold">AZURA</span></p>
 						</a>
 						<span class="text-label-s color-error">Pre-alpha</span>
 					</div>
 
 					<div class="spacer"></div>
+
+					<a href="https://github.com/Cristian-Simtion/Azura-Framework/" target="_blank" class="button button-m outlined ripple mb-0 mr-16">
+						<span>Github</span>
+					</a>
+
+					<button id="notifications" class="button button-square ripple mb-0 mr-16">
+						<span class="icon-dot"></span>
+					</button>
+					
 
 					<button id="toggle-mode" class="button button-square ripple mb-0 mr-24">
 						<span class="icon-dark-mode"></span>
@@ -95,17 +96,17 @@
 				<div class="nav-drawer-list mt-40">
 					<ul>
 						<li>
-							<a href="<?php the_template_path(); ?>index.php" data-drawer="close">
+							<a href="index.php" data-drawer="close">
 								<span>Get Started</span>
 							</a>
 						</li>
 						<li>
-							<a href="<?php the_template_path(); ?>breakpoints.php" data-drawer="close">
+							<a href="breakpoints.php" data-drawer="close">
 								<span>Breakpoints</span>
 							</a>
 						</li>
 						<li>
-							<a href="<?php the_template_path(); ?>changelog.php" data-drawer="close">
+							<a href="changelog.php" data-drawer="close">
 								<span>Changelog</span>
 							</a>
 						</li>
@@ -118,33 +119,45 @@
 							</button>
 							<ul>
 								<li>
-									<a href="<?php the_template_path(); ?>grid.php" data-drawer="close" class="ripple">
+									<a href="grid.php" data-drawer="close" class="ripple">
+										<span class="icon icon-dot width-40"></span>
 										<span>Grid</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>flex.php" data-drawer="close" class="ripple">
+									<a href="flex.php" data-drawer="close" class="ripple">
+										<span class="icon icon-dot width-40"></span>
 										<span>Flex</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>colors.php" data-drawer="close">
+									<a href="colors.php" data-drawer="close">
+										<span class="icon icon-dot width-40"></span>
 										<span>Colors</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>typography.php" data-drawer="close">
+									<a href="typography.php" data-drawer="close">
+										<span class="icon icon-dot width-40"></span>
 										<span>Typography</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>round.php" data-drawer="close">
+									<a href="round.php" data-drawer="close">
+										<span class="icon icon-dot width-40"></span>
 										<span>Round</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>elevation.php" data-drawer="close">
+									<a href="elevation.php" data-drawer="close">
+										<span class="icon icon-dot width-40"></span>
 										<span>Elevation</span>
+									</a>
+								</li>
+								<li>
+									<a href="backdrop.php" data-drawer="close">
+										<span class="icon icon-dot width-40"></span>
+										<span>Backdrop</span>
 									</a>
 								</li>
 							</ul>
@@ -155,82 +168,96 @@
 							</button>
 							<ul>
 								<li>
-									<a href="<?php the_template_path(); ?>icons.php" data-drawer="close">
-										<span>Icons</span>
-									</a>
-								</li>
-								<li>
-									<a href="<?php the_template_path(); ?>images.php" data-drawer="close">
-										<span>Images</span>
-									</a>
-								</li>
-								<li>
-									<a href="<?php the_template_path(); ?>buttons.php" data-drawer="close">
+									<a href="buttons.php" data-drawer="close">
+										<span class="icon icon-dot width-40"></span>
 										<span>Buttons</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>cards.php" data-drawer="close">
+									<a href="icons.php" data-drawer="close">
+										<span class="icon icon-dot width-40"></span>
+										<span>Icons</span>
+									</a>
+								</li>
+								<li>
+									<a href="images.php" data-drawer="close">
+										<span class="icon icon-dot width-40"></span>
+										<span>Images</span>
+									</a>
+								</li>
+								<li>
+									<a href="cards.php" data-drawer="close">
+										<span class="icon icon-dot width-40"></span>
 										<span>Cards</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>dialogs.php" data-drawer="close">
+									<span class="text-title-s white-space-nowrap p-16 d-flex">Form inputs and control</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<button class="toggle-sublist">
+								<span>Work in progress</span>
+							</button>
+							<ul>
+								<li>
+									<a href="validation.php" data-drawer="close">
+										<span>Validation Form</span>
+									</a>
+								</li>
+								<li>
+									<a href="dialogs.php" data-drawer="close">
 										<span>Dialogs</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>checkboxes.php" data-drawer="close">
+									<a href="checkboxes.php" data-drawer="close">
 										<span>Input controls</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>lists.php" data-drawer="close">
+									<a href="lists.php" data-drawer="close">
 										<span>Lists</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>textfields.php" data-drawer="close">
+									<a href="textfields.php" data-drawer="close">
 										<span>Text fields</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>textareas.php" data-drawer="close">
+									<a href="textareas.php" data-drawer="close">
 										<span>Textareas</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>forms.php" data-drawer="close">
+									<a href="forms.php" data-drawer="close">
 										<span>Forms</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>fileinputs.php" data-drawer="close">
+									<a href="fileinputs.php" data-drawer="close">
 										<span>File Inputs</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>ajax.php" data-drawer="close">
+									<a href="ajax.php" data-drawer="close">
 										<span>Ajax</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>noajax.php" data-drawer="close">
-										<span>No Ajax Destination</span>
-									</a>
-								</li>
-								<li>
-									<a href="<?php the_template_path(); ?>viewport.php" data-drawer="close">
+									<a href="viewport.php" data-drawer="close">
 										<span>Viewport</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>select.php" data-drawer="close">
+									<a href="select.php" data-drawer="close">
 										<span>Select</span>
 									</a>
 								</li>
 								<li>
-									<a href="<?php the_template_path(); ?>scrollbar.php" data-drawer="close">
+									<a href="scrollbar.php" data-drawer="close">
 										<span>Scrollbar</span>
 									</a>
 								</li>

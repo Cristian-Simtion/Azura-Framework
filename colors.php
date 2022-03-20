@@ -10,78 +10,148 @@
 					<h1 class="text-headline-l">Colors</h1>
 				</div>
 			</div>
+		</div>
 
-			<div class="row">
+		<div id="primary-key-colors" class="container mb-80">
+			<div class="row mb-0">
 				<div class="col">
-					<div class="card surface elevation-1 p-16">	
+					<h1 class="text-headline-s mb-8">Primary key colors</h1>
+					<p class="text-body-m">The primary key color is used to derive roles for key components across the UI, such as the FAB, prominent buttons, active states, as well as the tint of elevated surfaces.</p>
 
-						<h3 class="text-title-m mb-24">Theme colors</h3>
+					<code>bg-primary</code><br>
+					<code>bg-on-primary</code><br>
+				</div>
 
-						<div class="d-flex flex-column flex-md-row">
-							<div>
-								<div class="d-flex align-center mb-16">
-									<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-primary"></div>
-									<div class="mr-16">Primary</div>
-								</div>
-
-								<div class="d-flex align-center mb-16">
-									<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-primary-container"></div> 
-									<div class="mr-16">Primary Container</div>
-								</div>
-
-								<div class="d-flex align-center mb-16">
-									<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-secondary"></div> 
-									<div class="mr-16">Secondary</div>
-								</div>
-
-								<div class="d-flex align-center mb-16">
-									<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-secondary-container"></div> 
-									<div class="mr-16">Secondary Container</div>
-								</div>
-							</div>
-
-							<div>
-								<div class="d-flex align-center mb-16">
-									<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-tertiary"></div> 
-									<div class="mr-16">Tertiary</div>
-								</div>
-
-								<div class="d-flex align-center mb-16">
-									<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-tertiary-container"></div> T
-									<div class="mr-16">ertiary Container</div>
-								</div>
-
-								<div class="d-flex align-center mb-16">
-									<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-error"></div> 
-									<div class="mr-16">Error</div>
-								</div>
-
-								<div class="d-flex align-center mb-16">
-									<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-error-container"></div> 
-									<div class="mr-16">Error Container</div>
-								</div>
-							</div>
-
-							<div>
-								<div class="d-flex align-center mb-16">
-									<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline background"></div> 
-									<div class="mr-16">Background & Surface</div>
-								</div>
-
-								<div class="d-flex align-center mb-16">
-									<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline surface-variant"></div> 
-									<div class="mr-16">Surface Variant</div>
-								</div>
-							</div>
-						</div>
-						
+				<div class="col sm-4 md-4">
+					<div class="d-flex align-center mb-16">
+						<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-primary"></div> Primary key color
 					</div>
 				</div>
 
 				<div class="col sm-4 md-4">
-					<div class="card surface elevation-1 p-16">	
+					<div class="d-flex align-center mb-16">
+						<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-on-primary"></div> On primary key color
+					</div>
+				</div>
+			</div>
+		</div>
 
-						<h3 class="text-title-m mb-24">Primary palette</h3>
+		<div id="secondary-key-colors" class="container mb-80">
+			<div class="row mb-0">
+				<div class="col">
+					<h1 class="text-headline-s mb-8">Secondary key colors</h1>
+					<p class="text-body-m">The secondary key color is used for less prominent components in the UI such as filter chips, while expanding the opportunity for color expression.</p>
+
+					<code>bg-secondary</code><br>
+					<code>bg-on-secondary</code><br>
+				</div>
+
+				<div class="col sm-4 md-4">
+					<div class="d-flex align-center mb-16">
+						<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-secondary"></div> Secondary key color
+					</div>
+				</div>
+
+				<div class="col sm-4 md-4">
+					<div class="d-flex align-center mb-16">
+						<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-on-secondary"></div> On secondary key color
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="tertiary-key-colors" class="container mb-80">
+			<div class="row mb-0">
+				<div class="col">
+					<h1 class="text-headline-s mb-8">Tertiary key colors</h1>
+					<p class="text-body-m">The tertiary key color is used to derive the roles of contrasting accents that can be used to balance primary and secondary colors or bring heightened attention to an element. The tertiary color role is left for teams to use at their discretion and is intended to support broader color expression in products.</p>
+
+					<code>bg-tertiary</code><br>
+					<code>bg-on-tertiary</code><br>
+				</div>
+
+				<div class="col sm-4 md-4">
+					<div class="d-flex align-center mb-16">
+						<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-tertiary"></div> Tertiary key color
+					</div>
+				</div>
+
+				<div class="col sm-4 md-4">
+					<div class="d-flex align-center mb-16">
+						<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-on-tertiary"></div> On tertiary key color
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="error-key-colors" class="container mb-80">
+			<div class="row mb-0">
+				<div class="col">
+					<h1 class="text-headline-s mb-8">Error key colors</h1>
+					<p class="text-body-m">In addition to the accent and neutral key color, the color system includes a semantic color role for error, again in the form of the error role itself, plus an on-error, error container, and on-error container role.</p>
+
+					<code>bg-error</code><br>
+					<code>bg-on-error</code><br>
+				</div>
+
+				<div class="col sm-4 md-4">
+					<div class="d-flex align-center mb-16">
+						<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-error"></div> Error key color
+					</div>
+				</div>
+
+				<div class="col sm-4 md-4">
+					<div class="d-flex align-center mb-16">
+						<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-on-error"></div> On error key color
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="neutral-key-colors" class="container mb-80">
+			<div class="row mb-0">
+				<div class="col">
+					<h1 class="text-headline-s mb-8">Neutral key colors</h1>
+					<p class="text-body-m">The neutral key color is used to derive the roles of surface and background, as well as high emphasis text and icons.</p>
+
+					<p class="text-body-m">The neutral variant key color is used to derive medium emphasis text and icons, surface variants, and component outlines.</p>
+
+					<code>bg-background</code> or <code>bg-surface</code><br>
+					<code>bg-surface-variant</code><br>
+				</div>
+
+				<div class="col sm-4 md-4">
+					<div class="d-flex align-center mb-16">
+						<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-surface"></div> Neutral key color
+					</div>
+				</div>
+
+				<div class="col sm-4 md-4">
+					<div class="d-flex align-center mb-16">
+						<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-surface-variant"></div> Neutral variant key color
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container mb-80">
+			<div class="row">
+				<div id="primary-palette" class="col sm-4 md-4">
+					<h1 class="text-headline-s mb-8">Primary palette</h1>
+
+					<code>bg-primary-10</code><br>
+					<code>bg-primary-20</code><br>
+					<code>bg-primary-30</code><br>
+					<code>bg-primary-40</code><br>
+					<code>bg-primary-50</code><br>
+					<code>bg-primary-60</code><br>
+					<code>bg-primary-70</code><br>
+					<code>bg-primary-80</code><br>
+					<code>bg-primary-90</code><br>
+					<code>bg-primary-95</code><br>
+					<code>bg-primary-99</code><br><br>
+
+					<div class="card bg-surface elevation-1 p-16 mb-24">	
 
 						<div class="d-flex align-center mb-16">
 							<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-primary-10"></div> Primary 10
@@ -130,10 +200,22 @@
 					</div>
 				</div>
 
-				<div class="col sm-4 md-4">
-					<div class="card surface elevation-1 p-16">	
+				<div id="secondary-palette" class="col sm-4 md-4">
+					<h1 class="text-headline-s mb-8">Secondary palette</h1>
 
-						<h3 class="text-title-m mb-24">Secondary palette</h3>
+					<code>bg-secondary-10</code><br>
+					<code>bg-secondary-20</code><br>
+					<code>bg-secondary-30</code><br>
+					<code>bg-secondary-40</code><br>
+					<code>bg-secondary-50</code><br>
+					<code>bg-secondary-60</code><br>
+					<code>bg-secondary-70</code><br>
+					<code>bg-secondary-80</code><br>
+					<code>bg-secondary-90</code><br>
+					<code>bg-secondary-95</code><br>
+					<code>bg-secondary-99</code><br><br>
+
+					<div class="card bg-surface elevation-1 p-16 mb-24">	
 
 						<div class="d-flex align-center mb-16">
 							<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-secondary-10"></div> Secondary 10
@@ -182,10 +264,22 @@
 					</div>
 				</div>
 
-				<div class="col sm-4 md-4">
-					<div class="card surface elevation-1 p-16">	
+				<div id="tertiary-palette" class="col sm-4 md-4">
+					<h1 class="text-headline-s mb-8">Tertiary palette</h1>
 
-						<h3 class="text-title-m mb-24">Tertiary palette</h3>
+					<code>bg-tertiary-10</code><br>
+					<code>bg-tertiary-20</code><br>
+					<code>bg-tertiary-30</code><br>
+					<code>bg-tertiary-40</code><br>
+					<code>bg-tertiary-50</code><br>
+					<code>bg-tertiary-60</code><br>
+					<code>bg-tertiary-70</code><br>
+					<code>bg-tertiary-80</code><br>
+					<code>bg-tertiary-90</code><br>
+					<code>bg-tertiary-95</code><br>
+					<code>bg-tertiary-99</code><br><br>
+
+					<div class="card bg-surface elevation-1 p-16 mb-24">	
 
 						<div class="d-flex align-center mb-16">
 							<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-tertiary-10"></div> Tertiary 10
@@ -234,10 +328,22 @@
 					</div>
 				</div>
 
-				<div class="col sm-4 md-4">
-					<div class="card surface elevation-1 p-16">	
+				<div id="error-palette" class="col sm-4 md-4">
+					<h1 class="text-headline-s mb-8">Error palette</h1>
 
-						<h3 class="text-title-m mb-24">Error palette</h3>
+					<code>bg-error-10</code><br>
+					<code>bg-error-20</code><br>
+					<code>bg-error-30</code><br>
+					<code>bg-error-40</code><br>
+					<code>bg-error-50</code><br>
+					<code>bg-error-60</code><br>
+					<code>bg-error-70</code><br>
+					<code>bg-error-80</code><br>
+					<code>bg-error-90</code><br>
+					<code>bg-error-95</code><br>
+					<code>bg-error-99</code><br><br>
+
+					<div class="card bg-surface elevation-1 p-16 mb-24">	
 
 						<div class="d-flex align-center mb-16">
 							<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-error-10"></div> Error 10
@@ -286,10 +392,22 @@
 					</div>
 				</div>
 
-				<div class="col sm-4 md-4">
-					<div class="card surface elevation-1 p-16">	
+				<div id="neutral-palette" class="col sm-4 md-4">
+					<h1 class="text-headline-s mb-8">Neutral palette</h1>
 
-						<h3 class="text-title-m mb-24">Neutral palette</h3>
+					<code>bg-neutral-10</code><br>
+					<code>bg-neutral-20</code><br>
+					<code>bg-neutral-30</code><br>
+					<code>bg-neutral-40</code><br>
+					<code>bg-neutral-50</code><br>
+					<code>bg-neutral-60</code><br>
+					<code>bg-neutral-70</code><br>
+					<code>bg-neutral-80</code><br>
+					<code>bg-neutral-90</code><br>
+					<code>bg-neutral-95</code><br>
+					<code>bg-neutral-99</code><br><br>
+
+					<div class="card bg-surface elevation-1 p-16 mb-24">	
 
 						<div class="d-flex align-center mb-16">
 							<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-neutral-10"></div> Neutral 10
@@ -338,10 +456,22 @@
 					</div>
 				</div>
 
-				<div class="col sm-4 md-4">
-					<div class="card surface elevation-1 p-16">	
+				<div id="neutral-v-palette" class="col sm-4 md-4">
+					<h1 class="text-headline-s mb-8">Neutral Variant palette</h1>
 
-						<h3 class="text-title-m mb-24">Neutral Variant palette</h3>
+					<code>bg-neutral-v-10</code><br>
+					<code>bg-neutral-v-20</code><br>
+					<code>bg-neutral-v-30</code><br>
+					<code>bg-neutral-v-40</code><br>
+					<code>bg-neutral-v-50</code><br>
+					<code>bg-neutral-v-60</code><br>
+					<code>bg-neutral-v-70</code><br>
+					<code>bg-neutral-v-80</code><br>
+					<code>bg-neutral-v-90</code><br>
+					<code>bg-neutral-v-95</code><br>
+					<code>bg-neutral-v-99</code><br><br>
+
+					<div class="card bg-surface elevation-1 p-16 mb-24">	
 
 						<div class="d-flex align-center mb-16">
 							<div class="flex-shrink-0 height-40 width-40 r-circle mr-16 outline bg-neutral-v-10"></div> Neutral Variant 10
@@ -396,6 +526,27 @@
 </div>
 
 <div class="layer">
+</div>
+
+<div class="sidebar top-64 p-16">
+	<div class="p-fixed right-16 width-248">
+		<h3 class="text-headline-s mb-8 mt-80">Contents</h3>
+		<div class="list dense">
+			<ul>
+				<li><a href="#primary-key-colors" class="ripple ripple-x-center">Primary</a></li>
+				<li><a href="#secondary-key-colors" class="ripple ripple-x-center">Secondary</a></li>
+				<li><a href="#tertiary-key-colors" class="ripple ripple-x-center">Tertiary</a></li>
+				<li><a href="#error-key-colors" class="ripple ripple-x-center">Error</a></li>
+				<li><a href="#neutral-key-colors" class="ripple ripple-x-center">Neutral</a></li>
+				<li><a href="#primary-palette" class="ripple ripple-x-center">Primary palette</a></li>
+				<li><a href="#secondary-palette" class="ripple ripple-x-center">Secondary palette</a></li>
+				<li><a href="#tertiary-palette" class="ripple ripple-x-center">Tertiary palette</a></li>
+				<li><a href="#error-palette" class="ripple ripple-x-center">Error palette</a></li>
+				<li><a href="#neutral-palette" class="ripple ripple-x-center">Neutral palette</a></li>
+				<li><a href="#neutral-v-palette" class="ripple ripple-x-center">Neutral variant palette</a></li>
+			</ul>
+		</div>
+	</div>
 </div>
 
 <?php include './footer.php'; ?>

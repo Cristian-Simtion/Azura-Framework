@@ -9,16 +9,6 @@
 				<div class="col md-8">
 					<h1 class="text-headline-l">Flex</h1>
 					<p class="text-body-l">Control the layout of flex containers with alignment, justification and more with responsive flexbox utilities.</p>
-
-					<a href="#flex-classes" class="button button-s tonal ripple"><span>Classes</span></a>
-					<a href="#flex-direction" class="button button-s tonal ripple"><span>Direction</span></a>
-					<a href="#flex-justify" class="button button-s tonal ripple"><span>Justify</span></a>
-					<a href="#flex-align" class="button button-s tonal ripple"><span>Align</span></a>
-					<a href="#flex-align-self" class="button button-s tonal ripple"><span>Align self</span></a>
-					<a href="#flex-wrap" class="button button-s tonal ripple"><span>Wrap</span></a>
-					<a href="#flex-order" class="button button-s tonal ripple"><span>Order</span></a>
-					<a href="#flex-shrink-and-grow" class="button button-s tonal ripple"><span>Shrink and Grow</span></a>
-					<a href="#spacer" class="button button-s tonal ripple"><span>Spacer</span></a>
 				</div>
 			</div>
 
@@ -38,13 +28,13 @@
 					<code>d-xl-flex</code><br>
 					<code>d-xl-inline-flex</code>
 
-					<div class="card surface elevation-1 height-80 mt-16 d-flex align-center p-16">
+					<div class="card bg-surface elevation-1 height-80 mt-16 d-flex align-center p-16">
 						<div>
 							<code>d-flex</code>
 						</div>
 					</div>
 
-					<div class="card surface elevation-1 height-80 mt-16 d-inline-flex align-center p-16">
+					<div class="card bg-surface elevation-1 height-80 mt-16 d-inline-flex align-center p-16">
 						<div>
 							<code>d-inline-flex</code>
 						</div>
@@ -81,7 +71,7 @@
 
 					<h4 class="text-title-m mb-8">Flex row</h4>
 					<p class="text-body-l"><code>flex-row</code> and <code>flex-row-reverse</code></p>
-					<div class="card surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16">
+					<div class="card bg-surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -95,7 +85,7 @@
 						</div>
 					</div>
 
-					<div class="card surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16 flex-row-reverse">
+					<div class="card bg-surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16 flex-row-reverse">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -111,7 +101,7 @@
 
 					<h4 class="text-title-m mb-8">Flex column</h4>
 					<p class="text-body-l"><code>flex-column</code> and <code>flex-column-reverse</code></p>
-					<div class="card surface elevation-1 mt-16 d-flex align-center p-16 gap-16 flex-column">
+					<div class="card bg-surface elevation-1 mt-16 d-flex align-center p-16 gap-16 flex-column">
 						<div class="card outline p-16 r-8 secondary width-full">
 							Flex item 1
 						</div>
@@ -125,7 +115,7 @@
 						</div>
 					</div>
 
-					<div class="card surface elevation-1 mt-16 d-flex align-center p-16 gap-16 flex-column-reverse">
+					<div class="card bg-surface elevation-1 mt-16 d-flex align-center p-16 gap-16 flex-column-reverse">
 						<div class="card outline p-16 r-8 secondary width-full">
 							Flex item 1
 						</div>
@@ -176,7 +166,7 @@
 					<h4 class="text-title-m mb-8">Justify start</h4>
 					<p class="text-body-l"><code>justify-start</code></p>
 
-					<div class="card surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16 justify-start">
+					<div class="card bg-surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16 justify-start">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -193,7 +183,7 @@
 					<h4 class="text-title-m mb-8">Justify center</h4>
 					<p class="text-body-l"><code>justify-center</code></p>
 
-					<div class="card surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16 justify-center">
+					<div class="card bg-surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16 justify-center">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -210,7 +200,7 @@
 					<h4 class="text-title-m mb-8">Justify end</h4>
 					<p class="text-body-l"><code>justify-end</code></p>
 
-					<div class="card surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16 justify-end">
+					<div class="card bg-surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16 justify-end">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -227,7 +217,7 @@
 					<h4 class="text-title-m mb-8">Justify space between</h4>
 					<p class="text-body-l"><code>justify-space-between</code></p>
 
-					<div class="card surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16 justify-space-between">
+					<div class="card bg-surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16 justify-space-between">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -244,7 +234,7 @@
 					<h4 class="text-title-m mb-8">Justify space around</h4>
 					<p class="text-body-l"><code>justify-space-around</code></p>
 
-					<div class="card surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16 justify-space-around">
+					<div class="card bg-surface elevation-1 height-80 mt-16 d-flex align-center p-16 gap-16 justify-space-around">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -289,7 +279,7 @@
 					<h4 class="text-title-m mb-8">Align start</h4>
 					<p class="text-body-l"><code>align-start</code></p>
 
-					<div class="card surface elevation-1 height-128 mt-16 d-flex p-16 gap-16 align-start">
+					<div class="card bg-surface elevation-1 height-128 mt-16 d-flex p-16 gap-16 align-start">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -306,7 +296,7 @@
 					<h4 class="text-title-m mb-8">Align center</h4>
 					<p class="text-body-l"><code>align-center</code></p>
 
-					<div class="card surface elevation-1 height-128 mt-16 d-flex p-16 gap-16 align-center">
+					<div class="card bg-surface elevation-1 height-128 mt-16 d-flex p-16 gap-16 align-center">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -323,7 +313,7 @@
 					<h4 class="text-title-m mb-8">Align end</h4>
 					<p class="text-body-l"><code>align-end</code></p>
 
-					<div class="card surface elevation-1 height-128 mt-16 d-flex p-16 gap-16 align-end">
+					<div class="card bg-surface elevation-1 height-128 mt-16 d-flex p-16 gap-16 align-end">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -340,7 +330,7 @@
 					<h4 class="text-title-m mb-8">Align stretch</h4>
 					<p class="text-body-l"><code>align-stretch</code></p>
 
-					<div class="card surface elevation-1 height-128 mt-16 d-flex p-16 gap-16 align-stretch">
+					<div class="card bg-surface elevation-1 height-128 mt-16 d-flex p-16 gap-16 align-stretch">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -390,7 +380,7 @@
 					<h4 class="text-title-m mb-8">Align self start</h4>
 					<p class="text-body-l"><code>align-self-start</code></p>
 
-					<div class="card surface elevation-1 height-128 mt-16 d-flex p-16 gap-16">
+					<div class="card bg-surface elevation-1 height-128 mt-16 d-flex p-16 gap-16">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -407,7 +397,7 @@
 					<h4 class="text-title-m mb-8">Align self center</h4>
 					<p class="text-body-l"><code>align-self-center</code></p>
 
-					<div class="card surface elevation-1 height-128 mt-16 d-flex p-16 gap-16">
+					<div class="card bg-surface elevation-1 height-128 mt-16 d-flex p-16 gap-16">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -424,7 +414,7 @@
 					<h4 class="text-title-m mb-8">Align self end</h4>
 					<p class="text-body-l"><code>align-self-end</code></p>
 
-					<div class="card surface elevation-1 height-128 mt-16 d-flex p-16 gap-16">
+					<div class="card bg-surface elevation-1 height-128 mt-16 d-flex p-16 gap-16">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -441,7 +431,7 @@
 					<h4 class="text-title-m mb-8">Align self stretch</h4>
 					<p class="text-body-l"><code>align-self-stretch</code></p>
 
-					<div class="card surface elevation-1 height-128 mt-16 d-flex p-16 gap-16">
+					<div class="card bg-surface elevation-1 height-128 mt-16 d-flex p-16 gap-16">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -458,7 +448,7 @@
 					<h4 class="text-title-m mb-8">Align self auto</h4>
 					<p class="text-body-l"><code>align-self-auto</code></p>
 
-					<div class="card surface elevation-1 height-128 mt-16 d-flex p-16 gap-16">
+					<div class="card bg-surface elevation-1 height-128 mt-16 d-flex p-16 gap-16">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -498,7 +488,7 @@
 					<h4 class="text-title-m mb-8">Flex nowrap</h4>
 					<p class="text-body-l"><code>flex-nowrap</code></p>
 
-					<div class="card surface elevation-1 mt-16 d-flex p-16 gap-16 width-320 flex-nowrap">
+					<div class="card bg-surface elevation-1 mt-16 d-flex p-16 gap-16 width-320 flex-nowrap">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -527,7 +517,7 @@
 					<h4 class="text-title-m mb-8">Flex wrap</h4>
 					<p class="text-body-l"><code>flex-wrap</code></p>
 
-					<div class="card surface elevation-1 mt-16 d-flex p-16 gap-16 width-320 flex-wrap">
+					<div class="card bg-surface elevation-1 mt-16 d-flex p-16 gap-16 width-320 flex-wrap">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -556,7 +546,7 @@
 					<h4 class="text-title-m mb-8">Flex wrap reverse</h4>
 					<p class="text-body-l"><code>flex-wrap-reverse</code></p>
 
-					<div class="card surface elevation-1 mt-16 d-flex p-16 gap-16 width-320 flex-wrap-reverse">
+					<div class="card bg-surface elevation-1 mt-16 d-flex p-16 gap-16 width-320 flex-wrap-reverse">
 						<div class="card outline p-16 r-8 secondary">
 							Flex item 1
 						</div>
@@ -668,7 +658,7 @@
 					<h4 class="text-title-m mb-8">Flex order</h4>
 					<p class="text-body-l"><code>order-first</code></p>
 
-					<div class="card surface elevation-1 mt-16 d-flex p-16 gap-16">
+					<div class="card bg-surface elevation-1 mt-16 d-flex p-16 gap-16">
 						<div class="card outline p-16 r-8 secondary">
 							1
 						</div>
@@ -729,7 +719,7 @@
 					<h3 class="text-headline-s mb-8">Spacer</h3>
 					<code>spacer</code>
 
-					<div class="card surface elevation-1 mt-16 d-flex p-16 gap-16">
+					<div class="card bg-surface elevation-1 mt-16 d-flex p-16 gap-16">
 						<div class="card outline p-16 r-8 secondary">
 							1
 						</div>
@@ -762,6 +752,25 @@
 </div>
 
 <div class="layer">
+</div>
+
+<div class="sidebar top-64 p-16">
+	<div class="p-fixed right-16 width-248">
+		<h3 class="text-headline-s mb-8 mt-80">Contents</h3>
+		<div class="list dense">
+			<ul>
+				<li><a href="#flex-classes" class="ripple ripple-x-center">Classes</a></li>
+				<li><a href="#flex-direction" class="ripple ripple-x-center">Direction</a></li>
+				<li><a href="#flex-justify" class="ripple ripple-x-center">Justify</a></li>
+				<li><a href="#flex-align" class="ripple ripple-x-center">Align</a></li>
+				<li><a href="#flex-align-self" class="ripple ripple-x-center">Align self</a></li>
+				<li><a href="#flex-wrap" class="ripple ripple-x-center">Wrap</a></li>
+				<li><a href="#flex-order" class="ripple ripple-x-center">Order</a></li>
+				<li><a href="#flex-shrink-and-grow" class="ripple ripple-x-center">Shrink and Grow</a></li>
+				<li><a href="#spacer" class="ripple ripple-x-center">Spacer</a></li>
+			</ul>
+		</div>
+	</div>
 </div>
 
 <?php include './footer.php'; ?>

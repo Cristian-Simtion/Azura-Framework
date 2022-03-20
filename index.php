@@ -32,8 +32,8 @@
 					<div class="text-label-l">-- Developed with love by Cristian Simtion --</div>
 
 					<div class="mt-24">
-						<button class="button button-l outlined ripple">
-							<span>Get started</span>
+						<button id="install-app" class="button button-l outlined ripple disabled">
+							<span>Install</span>
 						</button>
 						<button class="button button-l ripple">
 							<span class="icon icon-download"></span>
@@ -44,25 +44,6 @@
 			</div>
 
 			<div class="row mt-24 mt-md-80 mb-80">
-				<div class="col md-4">
-					<h3 class="text-headline-s mb-16">Coming up next</h3>
-					<div class="list dense">
-						<ul>
-							<li><span class="icon icon-dot color-primary"></span>Tabs</li>
-							<li><span class="icon icon-dot color-primary"></span>Expandable panel</li>
-							<li><span class="icon icon-dot color-primary"></span>Select input</li>
-							<li><span class="icon icon-dot color-primary"></span>Switches</li>
-							<li><span class="icon icon-dot color-primary"></span>Progress bars</li>
-							<li><span class="icon icon-dot color-primary"></span>Badge</li>
-							<li><span class="icon icon-dot color-primary"></span>Breadcrumbs</li>
-							<li><span class="icon icon-dot color-primary"></span>Dividers</li>
-							<li><span class="icon icon-dot color-primary"></span>Bottom navigation</li>
-							<li><span class="icon icon-dot color-primary"></span>Floating action button</li>
-							<li><span class="icon icon-dot color-primary"></span>Snackbars</li>
-							<li><span class="icon icon-dot color-primary"></span>Parallax</li>
-						</ul>
-					</div>
-				</div>
 				<div class="col md-4">
 					<h3 class="text-headline-s mb-16">Planned components</h3>
 					<div class="list dense">
@@ -77,9 +58,37 @@
 							<li><span class="icon icon-dot color-error"></span>Chips</li>
 							<li><span class="icon icon-dot color-error"></span>Range sliders</li>
 							<li><span class="icon icon-dot color-error"></span>Tooltips</li>
-							<li><span class="icon icon-dot color-error"></span>Form validator</li>
 							<li><span class="icon icon-dot color-error"></span>Highlight syntax color</li>
 							<li><span class="icon icon-dot color-error"></span>Lightbox</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col md-4">
+					<h3 class="text-headline-s mb-16">Coming up next</h3>
+					<div class="list dense">
+						<ul>
+							<li><span class="icon icon-dot color-primary"></span>Tabs</li>
+							<li><span class="icon icon-dot color-primary"></span>Expandable panel</li>
+							<li><span class="icon icon-dot color-primary"></span>Select input</li>
+							<li><span class="icon icon-dot color-primary"></span>Switches</li>
+							<li><span class="icon icon-dot color-primary"></span>Progress bars</li>
+							<li><span class="icon icon-dot color-primary"></span>Badge</li>
+							<li><span class="icon icon-dot color-primary"></span>Breadcrumbs</li>
+							<li><span class="icon icon-dot color-primary"></span>Dividers</li>
+							<li><span class="icon icon-dot color-primary"></span>Bottom navigation</li>
+							<li><span class="icon icon-dot color-primary"></span>Floating action button</li>
+							<li><span class="icon icon-dot color-primary"></span>Parallax</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col md-4">
+					<h3 class="text-headline-s mb-16">In progress</h3>
+					<div class="list dense">
+						<ul>
+							<li><span class="icon icon-dot color-secondary"></span>Form validator</li>
+							<li><span class="icon icon-dot color-secondary"></span>Snackbars</li>
 						</ul>
 					</div>
 				</div>
